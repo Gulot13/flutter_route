@@ -4,7 +4,7 @@ class TodoList extends StatefulWidget{
   createState() => new TodoListState();
 }
 
-class Task {
+/*class Task {
 
 	int _id;
 	String _description;
@@ -39,7 +39,7 @@ class Task {
 		this._id = map['id'];
 		this._description = map['description'];
 	}
-}
+}*/
 
 class TodoListState extends State<TodoList>{
   List<String> _todoItems = [];
